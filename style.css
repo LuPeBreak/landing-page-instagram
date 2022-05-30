@@ -21,6 +21,8 @@ body{
     height: 100vh;
 }
 
+
+/*phone*/
 .instagram-phone{
     display: flex;
     align-items: center;
@@ -31,3 +33,81 @@ body{
 .instagram-phone img{
     height: 50rem;    
 }
+/*fim phone*/
+
+/*continue*/
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+/*group*/
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img{
+    height: 6rem;
+}
+
+.instagram-login{
+    background-color: #0095f6;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.not-accout{
+    color: #a0a0a0;
+}
+
+.link-blue{
+    color: #0095f6 ;
+}
+/*fim group*/
+
+/*get-the-app*/
+.get-the-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*fim get-the-app*/
+
+
+
+
+/*fim continue*/
